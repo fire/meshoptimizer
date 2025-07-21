@@ -900,7 +900,6 @@ int gltfpack(const char* input, const char* output, const char* report, Settings
 	{
 		settings.vrm = true;
 		settings.keep_extras = true;
-		settings.quantize = false;
 	}
 
 	std::string json, bin, fallback;
